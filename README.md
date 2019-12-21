@@ -1,0 +1,2 @@
+# R5T.Larissa.Default
+A default service implementations library for the Larissa project.
