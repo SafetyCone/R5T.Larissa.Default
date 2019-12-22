@@ -6,9 +6,11 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Caledonia.Base\source\R5T.Caledonia.Base\R5T.Caledonia.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Langobard\source\R5T.Langobard\R5T.Langobard.csproj" />
     <ProjectReference Include="..\..\..\R5T.Larissa.Base\source\R5T.Larissa.Base\R5T.Larissa.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Larissa.Commands\source\R5T.Larissa.Commands\R5T.Larissa.Commands.csproj" />
     <ProjectReference Include="..\..\..\R5T.Larissa.Configuration\source\R5T.Larissa.Configuration\R5T.Larissa.Configuration.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Volos\source\R5T.Volos\R5T.Volos.csproj" />
   </ItemGroup>
 </Project>
