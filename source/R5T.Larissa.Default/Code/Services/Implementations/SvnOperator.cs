@@ -95,5 +95,26 @@ namespace R5T.Larissa.Default
 
             this.Execute(command);
         }
+
+        public void Update(string path)
+        {
+            var command = SvnCommandLine.Start()
+                .Update(path)
+                ;
+
+            this.Execute(command);
+        }
+
+        public string GetRemoteRepositoryUrl(string path)
+        {
+            var command = SvnCommandLine.Start()
+                .Info(path)
+                .SetShowItemUrl();
+
+            var output = this.ExecuteAndGetOutput(command);
+
+            var remoteRepositoryUrl = output.Output.Trim();
+            return remoteRepositoryUrl;
+        }
     }
 }
