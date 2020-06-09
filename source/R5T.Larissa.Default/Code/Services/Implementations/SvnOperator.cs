@@ -63,12 +63,14 @@ namespace R5T.Larissa.Default
             return version;
         }
 
-        public void Checkout(string repositoryUrl, string localDirectoryPath)
+        public void Checkout(string repositoryUrl, string localDirectoryPath, string username, string password)
         {
             var adjustedLocalDirectoryPath = this.StringlyTypedPathOperator.EnsureNotDirectoryIndicatedPath(localDirectoryPath);
 
             var command = SvnCommandLine.Start()
                 .Checkout(repositoryUrl, adjustedLocalDirectoryPath)
+                .Username(username)
+                .Password(password)
                 ;
 
             this.Execute(command);
