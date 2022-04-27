@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using Microsoft.Extensions.Logging;
 
@@ -9,12 +9,12 @@ using R5T.Heraklion.Extensions;
 using R5T.Lombardy;
 
 using R5T.Larissa.Configuration;
-using R5T.Larissa.Commands;
+using R5T.Larissa.Commands;using R5T.T0064;
 
 
 namespace R5T.Larissa.Default
-{
-    public class SvnOperator : ISvnOperator
+{[ServiceImplementationMarker]
+    public class SvnOperator : ISvnOperator,IServiceImplementation
     {
         private ICommandLineInvocationOperator CommandLineInvocationOperator { get; }
         private ISvnExecutableFilePathProvider SvnExecutableFilePathProvider { get; }

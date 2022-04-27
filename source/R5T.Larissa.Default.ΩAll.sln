@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Default.Constru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Default.Testing", "R5T.Larissa.Default.Testing\R5T.Larissa.Default.Testing.csproj", "{14CD8975-4B96-43D8-9695-35147E3ADB2A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{7417FDBA-1DA6-4016-A199-F5F528218C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{14CD8975-4B96-43D8-9695-35147E3ADB2A}.Release|x64.Build.0 = Release|Any CPU
 		{14CD8975-4B96-43D8-9695-35147E3ADB2A}.Release|x86.ActiveCfg = Release|Any CPU
 		{14CD8975-4B96-43D8-9695-35147E3ADB2A}.Release|x86.Build.0 = Release|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Debug|x64.Build.0 = Debug|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Debug|x86.Build.0 = Debug|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Release|x64.ActiveCfg = Release|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Release|x64.Build.0 = Release|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Release|x86.ActiveCfg = Release|Any CPU
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7121C18A-272B-468F-AC6B-5CAAE7CC1EA1} = {7417FDBA-1DA6-4016-A199-F5F528218C4D}
 	EndGlobalSection
 EndGlobal

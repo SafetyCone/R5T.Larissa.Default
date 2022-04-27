@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using Microsoft.Extensions.Logging;
 
-using R5T.Larissa.Configuration;
+using R5T.Larissa.Configuration;using R5T.T0064;
 
 
 namespace R5T.Larissa.Default
-{
-    public class SvnversionOperator : ISvnversionOperator
+{[ServiceImplementationMarker]
+    public class SvnversionOperator : ISvnversionOperator,IServiceImplementation
     {
         private ISvnversionExecutableFilePathProvider SvnversionExecutableFilePathProvider { get; }
         private ILogger Logger { get; }
